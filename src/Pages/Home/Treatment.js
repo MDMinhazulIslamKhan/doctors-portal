@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import treatment from '../../assets/images/treatment.png'
 const Treatment = () => {
     return (
@@ -8,7 +9,7 @@ const Treatment = () => {
                 <h1 className='text-4xl font-bold text-accent'>Exceptional Dental Care, on Your Terms</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores soluta assumenda dignissimos repellendus quas laborum incidunt perferendis ad voluptates, quaerat asperiores saepe sed. Voluptatum animi molestias hic voluptatibus aliquam sapiente!</p>
                 <div>
-                    <button className=" my-5 btn btn-primary text-bold text-white bg-gradient-to-r from-secondary to-primary">Get Started</button>
+                    <Link to='/appointment' className=" my-5 btn btn-primary text-bold text-white bg-gradient-to-r from-secondary to-primary">Get Started</Link>
 
                 </div>
             </div>
